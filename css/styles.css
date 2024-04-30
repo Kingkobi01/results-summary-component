@@ -111,6 +111,8 @@ main {
         flex-direction: column;
         overflow: inherit;
         margin-inline: auto;
+        margin-bottom: 1em;
+        border-radius: 0;
     }
 
 
@@ -151,7 +153,6 @@ main>div:first-child {
 
     @media (max-width:40rem) {
         width: 100%;
-        margin-bottom: 1em;
         border-top-left-radius: 0%;
         border-top-right-radius: 0%;
 
@@ -232,6 +233,7 @@ main>div:last-child {
 
     @media (max-width:40rem) {
         width: 100%;
+
     }
 
 }
@@ -251,9 +253,3 @@ button {
         transition: all 150ms linear;
     }
 }
-
-/*  White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
- */
