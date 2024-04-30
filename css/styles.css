@@ -102,6 +102,7 @@ main {
     border-radius: var(--radius);
     display: flex;
     overflow: hidden;
+    box-shadow: 1rem 10px 2em hsla(224, 30%, 27%, 0.1);
 
 }
 
