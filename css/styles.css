@@ -110,8 +110,9 @@ main {
     main {
         flex-direction: column;
         overflow: inherit;
-
+        margin-inline: auto;
     }
+
 
 }
 
